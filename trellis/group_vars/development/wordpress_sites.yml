@@ -1,0 +1,17 @@
+# Created by trellis-cli vcanary
+# Documentation: https://roots.io/trellis/docs/wordpress-sites/
+
+wordpress_sites:
+  nexus.brecha.uy:
+    site_hosts:
+    - canonical: nexus.brecha.test
+      redirects: []
+    local_path: ../site
+    admin_email: admin@nexus.brecha.test
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
